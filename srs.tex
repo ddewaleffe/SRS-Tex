@@ -21,6 +21,7 @@
 \usepackage[bookmarks=true]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{reqmt}
 \hypersetup{
     bookmarks=false,    % show bookmarks bar?
     pdftitle={Software Requirement Specification},    % title
@@ -250,9 +251,16 @@ $<$Each requirement should be uniquely identified with a sequence number or a
 meaningful tag of some kind.$>$
 
 REQ-1:	REQ-2:
+\begin{reqmt}[FOOREQMT]{what's this?}
+  \label{req:fooreqmt}
+un premier brol
+\end{reqmt}
 
 \section{System Feature 2 (and so on)}
 
+\begin{reqmt}[fenêtre sur cour]
+  \label{req:fenetre-sur-cour}
+\end{reqmt}
 
 \chapter{Other Nonfunctional Requirements}
 
@@ -263,6 +271,7 @@ developers understand the intent and make suitable design choices. Specify the
 timing relationships for real time systems. Make such requirements as specific 
 as possible. You may need to state performance requirements for individual 
 functional requirements or features.$>$
+
 
 \section{Safety Requirements}
 $<$Specify those requirements that are concerned with possible loss, damage, or 
@@ -316,5 +325,9 @@ diagrams.$>$
 \section{Appendix C: To Be Determined List}
 $<$Collect a numbered list of the TBD (to be determined) references that remain 
 in the SRS so they can be tracked to closure.$>$
+
+\section{Appendix D: Requirements List}
+
+\tableofreqmts
 
 \end{document}

@@ -1,0 +1,100 @@
+;; RefTeX parse info file
+;; File: d:/ddw/github/SRS-Tex/srs.tex
+;; User: ddw (Dominique de Waleffe)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache)
+
+(master-dir . "d:/ddw/github/SRS-Tex/")
+
+(label-numbers)
+
+(bof "d:/ddw/github/SRS-Tex/srs.tex")
+
+(toc "toc" "  * Revision History" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "*" "\\chapter*{Revision History}" 2425)
+
+(toc "toc" "  1 Introduction" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "1" "\\chapter{Introduction}" 2692)
+
+(toc "toc" "    1.1 Purpose" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "1.1" "\\section{Purpose}" 2716)
+
+(toc "toc" "    1.2 Document Conventions" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "1.2" "\\section{Document Conventions}" 3012)
+
+(toc "toc" "    1.3 Intended Audience and Reading Suggestions" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "1.3" "\\section{Intended Audience and Reading Suggestions}" 3402)
+
+(toc "toc" "    1.4 Project Scope" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "1.4" "\\section{Project Scope}" 3870)
+
+(toc "toc" "    1.5 References" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "1.5" "\\section{References}" 4205)
+
+(toc "toc" "  2 Overall Description" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "2" "\\chapter{Overall Description}" 4619)
+
+(toc "toc" "    2.1 Product Perspective" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.1" "\\section{Product Perspective}" 4650)
+
+(toc "toc" "    2.2 Product Functions" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.2" "\\section{Product Functions}" 5247)
+
+(toc "toc" "    2.3 User Classes and Characteristics" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.3" "\\section{User Classes and Characteristics}" 5715)
+
+(toc "toc" "    2.4 Operating Environment" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.4" "\\section{Operating Environment}" 6260)
+
+(toc "toc" "    2.5 Design and Implementation Constraints" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.5" "\\section{Design and Implementation Constraints}" 6515)
+
+(toc "toc" "    2.6 User Documentation" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.6" "\\section{User Documentation}" 7118)
+
+(toc "toc" "    2.7 Assumptions and Dependencies" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "2.7" "\\section{Assumptions and Dependencies}" 7363)
+
+(toc "toc" "  3 External Interface Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "3" "\\chapter{External Interface Requirements}" 8026)
+
+(toc "toc" "    3.1 User Interfaces" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "3.1" "\\section{User Interfaces}" 8069)
+
+(toc "toc" "    3.2 Hardware Interfaces" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "3.2" "\\section{Hardware Interfaces}" 8662)
+
+(toc "toc" "    3.3 Software Interfaces" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "3.3" "\\section{Software Interfaces}" 9015)
+
+(toc "toc" "    3.4 Communications Interfaces" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "3.4" "\\section{Communications Interfaces}" 9774)
+
+(toc "toc" "  4 System Features" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "4" "\\chapter{System Features}" 10249)
+
+(toc "toc" "    4.1 System Feature 1" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "4.1" "\\section{System Feature 1}" 10633)
+
+(toc "toc" "      4.1.1 Description and Priority" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.1" "\\subsection{Description and Priority}" 10749)
+
+(toc "toc" "      4.1.2 Stimulus/Response Sequences" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.2" "\\subsection{Stimulus/Response Sequences}" 11067)
+
+(toc "toc" "      4.1.3 Functional Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.3" "\\subsection{Functional Requirements}" 11299)
+
+("req:fooreqmt" "r" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "    4.2 System Feature 2 (and so on)" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "4.2" "\\section{System Feature 2 (and so on)}" 12060)
+
+("req:fenetre-sur-cour" "r" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "  5 Other Nonfunctional Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "5" "\\chapter{Other Nonfunctional Requirements}" 12176)
+
+(toc "toc" "    5.1 Performance Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "5.1" "\\section{Performance Requirements}" 12220)
+
+(toc "toc" "    5.2 Safety Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "5.2" "\\section{Safety Requirements}" 12678)
+
+(toc "toc" "    5.3 Security Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "5.3" "\\section{Security Requirements}" 13114)
+
+(toc "toc" "    5.4 Software Quality Attributes" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "5.4" "\\section{Software Quality Attributes}" 13530)
+
+(toc "toc" "    5.5 Business Rules" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "5.5" "\\section{Business Rules}" 14086)
+
+(toc "toc" "  6 Other Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "6" "\\chapter{Other Requirements}" 14390)
+
+(toc "toc" "    6.1 Appendix A: Glossary" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "6.1" "\\section{Appendix A: Glossary}" 14691)
+
+(toc "toc" "    6.2 Appendix B: Analysis Models" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "6.2" "\\section{Appendix B: Analysis Models}" 15046)
+
+(toc "toc" "    6.3 Appendix C: To Be Determined List" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "6.3" "\\section{Appendix C: To Be Determined List}" 15248)
+
+(eof "d:/ddw/github/SRS-Tex/srs.tex")
+))
+
