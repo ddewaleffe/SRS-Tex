@@ -1,1 +1,7 @@
 *.pdf
+
+srs.aux
+srs.log
+srs.lor
+srs.tex
+srs.toc
