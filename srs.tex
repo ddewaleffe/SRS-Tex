@@ -16,12 +16,22 @@
 %http://www.se.rit.edu/~emad/teaching/slides/srs_template_sep14.pdf
 %http://karlwiegers.com
 \documentclass{scrreprt}
+\makeatletter
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\makeatother
 \usepackage{listings}
 \usepackage{underscore}
 \usepackage[bookmarks=true]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{reqmt}
+\usepackage{tla2}
 \hypersetup{
     bookmarks=false,    % show bookmarks bar?
     pdftitle={Software Requirement Specification},    % title
@@ -250,11 +260,129 @@ information is not yet available.$>$
 $<$Each requirement should be uniquely identified with a sequence number or a 
 meaningful tag of some kind.$>$
 
-REQ-1:	REQ-2:
-\begin{reqmt}[FOOREQMT]{what's this?}
+
+\begin{reqmt}[FOOREQMT-1]
   \label{req:fooreqmt}
-un premier brol
+  {what's this?}  un premier brol
+
+  blah blah
 \end{reqmt}
+\begin{reqmt}[FOOREQMT-2]
+  \label{req:fooreqmt2}
+  {what's this?}  un premier brol
+
+  blah blah
+\end{reqmt}
+\begin{reqmt}[FOOREQMT-3]
+  \label{req:fooreqmt3}
+  {what's this?}  un premier brol
+
+  blah blah
+\end{reqmt}
+
+\section{Toolbox Screen}
+
+\subsection{Description and Priority}
+
+This screen provides an easy way for one person to easily have
+information about another's persons rights into applications. It
+provides a summary of application roles, applications owned, groups
+owned and group membership. Priority: HIGH.
+
+The screen also allows one to export this summary into an Excel
+file. Priority: LOW.
+
+Similarly, to users summary, the toolbox could provide a summary for
+groups (owners, members) or applications (owners, roles' members,
+security model summary). Priority: MEDIUM.
+
+
+\subsection{Stimulus/Response Sequences}
+
+When the user  enters in this module, she has a choice of
+user/group/application details, then he has to provide a name via a
+input field. He wll then have a view of the details. Export, will be
+requestable for this single chosen item.
+
+
+\subsection{Functional Requirements}
+$<$Itemize the detailed functional requirements associated with this feature.  
+These are the software capabilities that must be present in order for the user 
+to carry out the services provided by the feature, or to execute the use case.  
+Include how the product should respond to anticipated error conditions or 
+invalid inputs. Requirements should be concise, complete, unambiguous, 
+verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary 
+information is not yet available.$>$
+
+$<$Each requirement should be uniquely identified with a sequence number or a 
+meaningful tag of some kind.$>$
+
+
+\begin{reqmt}[Toolbox-MultipleChoice]
+The Toolbox module MUST allow the choice for multiple types of requests.
+\end{reqmt}
+
+ The user MUST be able to select a type of information object she
+ wants to query.
+
+Initially foreseen are \textbf{User}, \textbf{Group} and \textbf{Application}.
+
+\begin{reqmt}[Toolbox-multiple-kinds]
+  The tool allows to query and \textbf{view} information about multiple kinds
+  of objects. Depending on the selected type of object the view will
+  show relevant information.
+\end{reqmt}
+
+It is expected that the UI should easily allow switching between types
+of objects [tab-view, menu,...
+
+\begin{reqmt}[Toolbox-PerUser]
+When a User is selected, the tool MUST show application roles membership,
+application ownership, group ownership and group membership.
+
+This whole set of information SHOULD be exportable to an Excel
+compatible file directly useable by the user. 
+\end{reqmt}
+
+\begin{reqmt}[Toolbox-PerUser-assertion]
+
+\end{reqmt}
+
+\begin{reqmt}[Toolbox-PerGroup]
+When a Group is selected, the tool MUST group ownership and group
+membership.
+
+This whole set of information SHOULD be exportable to an Excel
+compatible file directly useable by the user. 
+
+\end{reqmt}
+\begin{reqmt}[Toolbox-PerApplication]
+When an Application is selected, the tool MUST show application
+ownership,  application roles membership,
+application security model.
+
+This whole set of information SHOULD be exportable to an Excel
+compatible file directly useable by the user. 
+
+\end{reqmt}
+
+\subsection{Application Rights}
+\label{sec:application-rights}
+
+\subsection{Application Owners}
+\label{sec:application-owners}
+
+\subsection{Group Membership}
+\label{sec:group-membership}
+
+\subsection{Group Owners}
+\label{sec:group-owners}
+
+\subsection{Group Management}
+\label{sec:group-management}
+
+
+
 
 \section{System Feature 2 (and so on)}
 
@@ -309,6 +437,11 @@ $<$Define any other requirements not covered elsewhere in the SRS. This might
 include database requirements, internationalization requirements, legal 
 requirements, reuse objectives for the project, and so on. Add any new sections 
 that are pertinent to the project.$>$
+\appendix{}
+
+\chapter{Appendix}
+\label{cha:appendix}
+
 
 \section{Appendix A: Glossary}
 %see https://en.wikibooks.org/wiki/LaTeX/Glossary
