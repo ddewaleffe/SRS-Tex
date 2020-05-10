@@ -1,6 +1,7 @@
 *.pdf
-
-srs_flymake.aux
-srs_flymake.log
-srs_flymake.out
-srs_flymake.toc
+srs_flymake.*
+srs.aux
+srs.log
+srs.lor
+srs.tex
+srs.toc
