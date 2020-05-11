@@ -71,9 +71,33 @@
 
 ("req:fooreqmt" "r" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
 
+(toc "toc" "      4.1.4 Application Rights" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.4" "\\subsection{Application Rights}" 15752)
+
+("sec:application-rights" "s" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "      4.1.5 Application Owners" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.5" "\\subsection{Application Owners}" 15816)
+
+("sec:application-owners" "s" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "      4.1.6 Group Membership" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.6" "\\subsection{Group Membership}" 15880)
+
+("sec:group-membership" "s" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "      4.1.7 Group Owners" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.7" "\\subsection{Group Owners}" 15940)
+
+("sec:group-owners" "s" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "      4.1.8 Group Management" "d:/ddw/github/SRS-Tex/srs.tex" nil 3 "4.1.8" "\\subsection{Group Management}" 15992)
+
+("sec:group-management" "s" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
 (toc "toc" "    4.2 System Feature 2 (and so on)" "d:/ddw/github/SRS-Tex/srs.tex" nil 2 "4.2" "\\section{System Feature 2 (and so on)}" 12060)
 
 ("req:fenetre-sur-cour" "r" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
+
+(toc "toc" "  5 Appendix" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "5" "\\chapter{Appendix}" 18698)
+
+("cha:appendix" "s" nil "d:/ddw/github/SRS-Tex/srs.tex" nil "")
 
 (toc "toc" "  5 Other Nonfunctional Requirements" "d:/ddw/github/SRS-Tex/srs.tex" nil 1 "5" "\\chapter{Other Nonfunctional Requirements}" 12176)
 

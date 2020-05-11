@@ -7,3 +7,8 @@ srs.tex
 srs.toc
 #srs.tex#
 srs.rel
+*.aux
+*.log
+*.lor
+*.rel
+*.toc

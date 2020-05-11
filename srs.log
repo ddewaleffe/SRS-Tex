@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  5 MAY 2020 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  8 MAY 2020 20:57
 entering extended mode
 **\input srs.tex
  (srs.tex
@@ -115,6 +115,14 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrreprt Info: Redefining `\numberline' on input line 7069.
 \bibindent=\dimen134
 )
+LaTeX Info: Redefining \rm on input line 20.
+LaTeX Info: Redefining \sf on input line 21.
+LaTeX Info: Redefining \tt on input line 22.
+LaTeX Info: Redefining \bf on input line 23.
+LaTeX Info: Redefining \it on input line 24.
+LaTeX Info: Redefining \sl on input line 25.
+LaTeX Info: Redefining \sc on input line 26.
+
 (D:\s\miktex\tex/latex/listings\listings.sty
 \lst@mode=\count177
 \lst@gtempboxa=\box47
@@ -359,40 +367,77 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \c@reqmtthm=\count268
 \c@usecasethm=\count269
 )
+(D:\localtexmf\tex/latex/Lamport\tla2.sty
+(D:\localtexmf\tex/latex/Lamport\abbrev.sty
+\c@abr@ctr=\count270
+\c@abr@level=\count271
+\symtlaitalics=\mathgroup4
+\abr@csctr=\count272
+)
+Loading pf2 style
+(D:\localtexmf\tex/latex/Lamport\pf2.sty
+\pfindent=\skip70
+\c@@vectorctr=\count273
+\@veclen=\skip71
+\pfbox=\box53
+\c@pfhidelevel=\count274
+\pfshortNumberLevel=\count275
+\c@pf@sidenumberdepth=\count276
+\pf@sidenumberoutdent=\skip72
+\pfLevelCount=\count277
+\pfStepCount=\count278
+\pf@outdent=\skip73
+\@temppflen=\skip74
+\@proveindent=\skip75
+\c@pf@conjCounter=\count279
+\c@pfenum=\count280
+\c@pfenumdepth=\count281
+\pfenumindent=\skip76
+\c@pfenumi=\count282
+\c@pfenumii=\count283
+\c@pfenumiii=\count284
+)
+\@charwidth=\skip77
+\boxrulewd=\skip78
+\boxindent=\skip79
+\boxlineht=\skip80
+\boxruleht=\skip81
+\boxruledp=\skip82
+)
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 37.
+(hyperref)                setting the option has no effect on input line 47.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 (D:\s\miktex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count270
-\l__pdf_internal_box=\box53
+\l__kernel_color_stack_int=\count285
+\l__pdf_internal_box=\box54
 ) (srs.aux)
 \openout1 = `srs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-Package scrbase Info: activating english \contentsname on input line 44.
-Package scrbase Info: activating english \listfigurename on input line 44.
-Package scrbase Info: activating english \listtablename on input line 44.
-\c@lstlisting=\count271
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+Package scrbase Info: activating english \contentsname on input line 54.
+Package scrbase Info: activating english \listfigurename on input line 54.
+Package scrbase Info: activating english \listtablename on input line 54.
+\c@lstlisting=\count286
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring ON on input line 54.
 
 (D:\s\miktex\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -403,11 +448,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (D:\s\miktex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count272
+\c@section@level=\count287
 )
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
  (srs.out) (srs.out)
 \@outlinefile=\write3
 \openout3 = `srs.out'.
@@ -419,7 +464,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 44.
+(scrreprt)           before \begin{document} on input line 54.
  (D:\s\miktex\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
 
@@ -428,34 +473,34 @@ File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 168.
-\BKM@id=\count273
+\BKM@id=\count288
 ))
 (D:\s\miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
+\scratchcounter=\count289
 \scratchdimen=\dimen149
-\scratchbox=\box55
-\nofMPsegments=\count275
-\nofMParguments=\count276
+\scratchbox=\box56
+\nofMPsegments=\count290
+\nofMParguments=\count291
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count277
+\MPscratchCnt=\count292
 \MPscratchDim=\dimen150
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks21
 )
-Overfull \hbox (36.98853pt too wide) in paragraph at lines 47--47
+Overfull \hbox (36.98853pt too wide) in paragraph at lines 57--57
  []
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 53.
+(Font)              <24.88> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 53.
+(Font)              <20.74> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 53.
+(Font)              <17.28> on input line 63.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 57.
+(Font)              <12> on input line 67.
 [1
 
 {C:/Users/ddw/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (srs.toc
@@ -504,47 +549,52 @@ chapter 3.
 ]
 chapter 4.
 Package hyperref Info: bookmark level for unknown reqmt defaults to 0 on input 
-line 254.
+line 264.
 [9
 
-] [10]
+] [10] [11]
 chapter 5.
-[11
+[12
 
-] [12]
+] [13]
 chapter 6.
+[14
+
+]
+chapter A.
 (srs.lor)
 \tf@lor=\write5
 \openout5 = `srs.lor'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
- [13
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
+ [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
  (srs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 446.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 446.
 Package rerunfilecheck Info: File `srs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 446.
  ) 
 Here is how much of TeX's memory you used:
- 10252 strings out of 482654
- 173370 string characters out of 2948948
- 572589 words of memory out of 3000000
- 25731 multiletter control sequences out of 15000+200000
- 541481 words of font info for 54 fonts, out of 3000000 for 9000
+ 10815 strings out of 482654
+ 179144 string characters out of 2948948
+ 582625 words of memory out of 3000000
+ 26264 multiletter control sequences out of 15000+200000
+ 544443 words of font info for 63 fonts, out of 3000000 for 9000
  68 hyphenation exceptions out of 8191
- 43i,7n,72p,10126b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,7n,72p,10118b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/s/miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/s/miktex/fonts/typ
 e1/public/amsfonts/cm/cmbx12.pfb><D:/s/miktex/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><D:/s/miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/s/miktex/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><D:/s/miktex/fonts/type1/public/amsfonts
-/cm/cmssbx10.pfb><D:/s/miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on srs.pdf (13 pages, 140293 bytes).
+bxti10.pfb><D:/s/miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/s/miktex/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/s/miktex/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><D:/s/miktex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/s
+/miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on srs.pdf (15 pages, 169209 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
