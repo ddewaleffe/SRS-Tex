@@ -355,16 +355,22 @@ For users, the following assertions will be hold.
   \tla
   \begin{module}{Toolbox-Users}
     \begin{decls}{Definitions}
-      AllUsers == "Set of all users" \\
+      AD  Users == "Set of all users known in Active Directory" \\
+      AD Groups  == "Set of all groups known in Active Directory"\\
       ToolboxUserMenu == "Set of Users show in potential selection"\\
-      GroupList == "Set of AD groups"\\
+      GroupList == \SUBSET{AD  Groups}\\
       RoleList == "Set of Application Roles"\\
       ApplicationList == "Set of Applications"
     \end{decls}
 
     \midbar
     \begin{decls}{actions}
-      
+      Init == 
+        \A user \in AD Users :
+      \begin{conj}
+        user \in AllUsers\\
+        IsEnabled(user) \lor \lnot IsEnabled(user)\\
+      \end{conj}
     \end{decls}
     $\A user \in AllUsers : IsEnabled(user) => user \in
     ToolboxUserMenu $
