@@ -13,3 +13,5 @@ srs.rel
 *.lor
 *.rel
 *.toc
+
+srs.out
