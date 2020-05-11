@@ -267,6 +267,10 @@ meaningful tag of some kind.$>$
 
   blah blah
 \end{reqmt}
+
+
+
+
 \begin{reqmt}[FOOREQMT-2]
   \label{req:fooreqmt2}
   {what's this?}  un premier brol
@@ -345,8 +349,29 @@ compatible file directly useable by the user.
 \end{reqmt}
 
 \begin{reqmt}[Toolbox-PerUser-assertion]
-
+For users, the following assertions will be hold.
 \end{reqmt}
+
+  \tla
+  \begin{module}{Toolbox-Users}
+    \begin{decls}{Definitions}
+      AllUsers == "Set of all users" \\
+      ToolboxUserMenu == "Set of Users show in potential selection"\\
+      GroupList == "Set of AD groups"\\
+      RoleList == "Set of Application Roles"\\
+      ApplicationList == "Set of Applications"
+    \end{decls}
+
+    \midbar
+    \begin{decls}{actions}
+      
+    \end{decls}
+    $\A user \in AllUsers : IsEnabled(user) => user \in
+    ToolboxUserMenu $
+  \end{module}
+  \notla
+
+
 
 \begin{reqmt}[Toolbox-PerGroup]
 When a Group is selected, the tool MUST group ownership and group
