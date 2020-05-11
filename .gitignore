@@ -1,5 +1,6 @@
 *.pdf
 
+srs_flymake.*
 srs.aux
 srs.log
 srs.lor

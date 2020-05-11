@@ -27,16 +27,21 @@
 \contentsline {subsection}{\numberline {4.2.1}Description and Priority}{10}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Stimulus/Response Sequences}{10}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Functional Requirements}{10}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}System Feature 2 (and so on)}{11}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Other Nonfunctional Requirements}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Performance Requirements}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Safety Requirements}{12}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Security Requirements}{12}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Software Quality Attributes}{12}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Business Rules}{13}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Other Requirements}{14}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Appendix}{15}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Appendix A: Glossary}{15}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Appendix B: Analysis Models}{15}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Appendix C: To Be Determined List}{15}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Appendix D: Requirements List}{15}{section.A.4}%
+\contentsline {subsection}{\numberline {4.2.4}Application Rights}{12}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Application Owners}{12}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Group Membership}{12}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Group Owners}{12}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Group Management}{12}{subsection.4.2.8}%
+\contentsline {section}{\numberline {4.3}System Feature 2 (and so on)}{12}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Other Nonfunctional Requirements}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Performance Requirements}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Safety Requirements}{13}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Security Requirements}{13}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Software Quality Attributes}{13}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Business Rules}{14}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Other Requirements}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Appendix}{16}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Appendix A: Glossary}{16}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Appendix B: Analysis Models}{16}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Appendix C: To Be Determined List}{16}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Appendix D: Requirements List}{16}{section.A.4}%
