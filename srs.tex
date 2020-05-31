@@ -347,7 +347,7 @@ application ownership, group ownership and group membership.
 This whole set of information SHOULD be exportable to an Excel
 compatible file directly useable by the user. 
 \end{reqmt}
-
+\clearpage{}
 \begin{reqmt}[Toolbox-PerUser-assertion]
 For users, the following assertions will be hold.
 \end{reqmt}
@@ -355,25 +355,58 @@ For users, the following assertions will be hold.
   \tla
   \begin{module}{Toolbox-Users}
     \begin{decls}{Definitions}
-      AD  Users == "Set of all users known in Active Directory" \\
-      AD Groups  == "Set of all groups known in Active Directory"\\
-      ToolboxUserMenu == "Set of Users show in potential selection"\\
-      GroupList == \SUBSET{AD  Groups}\\
-      RoleList == "Set of Application Roles"\\
-      ApplicationList == "Set of Applications"
+      \CONSTANT AD Users == "Set of all users known in Active Directory" \\
+      \CONSTANT AD Groups  == "Set of all groups known in Active Directory"\\
+      \CONSTANT App Roles == "Set of all defined application roles"\\
+      \CONSTANT Applications == "Set of known Applications"\\
+      \VARIABLES SelectedUser, UserRoles, OwnedApplications,
+      OwnedGroups, MemberGroups
     \end{decls}
-
     \midbar
-    \begin{decls}{actions}
-      Init == 
-        \A user \in AD Users :
-      \begin{conj}
-        user \in AllUsers\\
-        IsEnabled(user) \lor \lnot IsEnabled(user)\\
-      \end{conj}
+    \begin{decls}{Actions}
+      ooooooooooooooo\=\kill
+      Init ==  \\ 
+        \> /\ TypeInvariant\\
+        \> /\ SelectedUser = \emptyset{}\\
+     Next ==\\
+      \> \/  PickUser /\ OwnedGroups /\ OwnedApps /\ RolesMembership /\ GroupMembership\\
+      \> \/ SelectedUser # \emptyset{} /\ Export\\
     \end{decls}
-    $\A user \in AllUsers : IsEnabled(user) => user \in
-    ToolboxUserMenu $
+    \begin{decls}{Action details}
+      ooooooooooooooo\=\kill
+      PickUser ==\\
+      \> \CHOOSE u \in AD Users : IsEnabled(u) /\ SelectedUser'= u\\
+      OwnedGroups ==\\
+      \> /\ \exists OwnedGroups' \in \SUBSET{AD  Groups} \\
+      \> /\ \forall  g \in OwnedGroups' : IsGroupOwner(u,g)\\
+     \> /\ \forall  g \notin OwnedGroups' : ~IsGroupOwner(u,g)\\
+     GroupMembership ==\\
+      \> /\ \exists MemberGroups' \in \SUBSET{AD  Groups} \\
+      \> /\ \forall  g \in MemberGroups' : IsGroupMember(u,g)\\
+     \> /\ \forall  g \notin MemberGroups' : ~IsGroupMember(u,g)\\
+      OwnedApps ==\\
+      \> /\ \exists OwnedApplications' \in \SUBSET{Applications} \\
+      \> /\ \forall  a \in OwnedApplications' : IsApplicationOwner(u,g)\\
+      \> /\ \forall  a \in OwnedApplications' :  ~IsApplicationOwner(u,g)\\
+      Export ==\\
+      \> /\ \UNCHANGED <<SelectedUser,OwnedApplications,OwnedGroups,MemberGroups>>\\
+      \> /\ \exists f \in UsersFiles : IsExcel(f)\\
+      \> /\ Displays(f,SelectedUser)\\
+      \> /\ Displays(f,OwnedApplications)\\
+      \> /\ Displays(f,OwnedGroups)\\
+      \> /\ Displays(f,MemberGroups)\\
+ %      Invariant ==  user \in AD Users :
+%      \begin{conj}
+%        IsEnabled(user) \lor \lnot IsEnabled(user)\\
+%      \end{conj} 
+    \end{decls}
+    
+%\begin{decls}{actions}
+%      Init == SelectedUser=\{\}\\
+%      Select == SelectedUser' \in AD USers 
+%    \end{decls}
+   %% $\A user \in AllUsers : IsEnabled(user) => user \in
+   %% ToolboxUserMenu $
   \end{module}
   \notla
 
